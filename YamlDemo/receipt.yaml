@@ -1,0 +1,14 @@
+address: &o0
+  street: 123 Main St
+  city: Anytown
+  state: CA
+date: 2007-01-01T00:00:00.0000000
+items:
+- name: item1
+  price: 10
+- name: item2
+  price: 20
+person:
+  firstName: John
+  lastName: Doe
+  address: *o0
